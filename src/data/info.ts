@@ -9,18 +9,28 @@ export const info = {
 
   "experience": [
     {
+      "name": "Apex Systems",
+      "location": "Mexico City - Remote",
+      "startDate": "May 2024",
+      "endDate": "Actual Job",
+      "description": [
+        "- Expedia Group, developing features focusing on sort and filters team of all the LOBs",
+        "- Collaborated extensively with cross-functional teams to design and deploy new application features."
+      ]
+    },
+    {
       "name": "Luxoft",
-      "location": "Mexico City Metropolitan Area",
+      "location": "Mexico City - Remote",
       "startDate": "Jun 2023",
       "endDate": "Apr 2024",
       "description": [
-        "- Developed iOS applications, specifically for Expedia, focusing on enhancing user experience and feature integration.",
+        "- Developed iOS features for Expedia Group, focusing on enhancing user experience and feature integration.",
         "- Collaborated extensively with cross-functional teams to design and deploy new application features."
       ]
     },
     {
       "name": "NTT DATA Europe & Latam",
-      "location": "Mexico City Metropolitan Area",
+      "location": "Mexico City - Remote",
       "startDate": "Oct 2022",
       "endDate": "Jun 2023",
       "description": [
@@ -30,7 +40,7 @@ export const info = {
     },
     {
       "name": "Programa Delfin",
-      "location": "Mexico City Metropolitan Area",
+      "location": "Guadalajara, Mexico - Remote",
       "startDate": "Jun 2022",
       "endDate": "Aug 2022",
       "description": [
@@ -39,7 +49,7 @@ export const info = {
     },
     {
       "name": "Codifin",
-      "location": "Mexico City Metropolitan Area",
+      "location": "Mexico City - Remote",
       "startDate": "May 2022",
       "endDate": "Aug 2022",
       "description": [
@@ -48,7 +58,7 @@ export const info = {
     },
     {
       "name": "LanguageLine Solutions",
-      "location": "Mexico City Metropolitan Area",
+      "location": "Mexico City - Remote",
       "startDate": "Apr 2022",
       "endDate": "May 2022",
       "description": [
@@ -66,7 +76,7 @@ export const info = {
     },
     {
       "name": "Freelance",
-      "location": "Mexico City Metropolitan Area",
+      "location": "Mexico City - Remote",
       "startDate": "Aug 2018",
       "endDate": "Jun 2021",
       "description": [
@@ -88,28 +98,10 @@ export const info = {
     {
       "name": "Instituto Politécnico Nacional",
       "location": "Mexico City, Mexico",
-      "startDate": "Oct 2021",
-      "endDate": "Dec 2025",
-      "description": [
-        "Bachelor's degree, Health Services Administration. Concentrating on Health Services Management."
-      ]
-    },
-    {
-      "name": "Instituto Politécnico Nacional",
-      "location": "Mexico City, Mexico",
       "startDate": "Feb 2016",
       "endDate": "Jan 2018",
       "description": [
         "Technical degree, Computation. Covered web development, programming in Java, batch, C and C++, networks management, computer assembly, adobe suite, 3D modeling essentials, MySQL database management, operating systems, and Arduino projects."
-      ]
-    },
-    {
-      "name": "UVEG",
-      "location": "Mexico",
-      "startDate": "Sep 2021",
-      "endDate": "Dec 2021",
-      "description": [
-        "Bachelor's degree, Management and business development. Focused on Administration and Business Development."
       ]
     },
     {
