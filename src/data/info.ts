@@ -1,135 +1,167 @@
 export const info = {
   baseUrl: "https://www.roncuevas.com",
-  name: "Aaron A. Martinez Cuevas",
-  jobDescription: "iOS Developer",
-  about: `I'm an iOS developer based in the Mexico City Metropolitan Area. I am passionate about merging the worlds of medicine and technology, crafting applications that enhance research and healthcare. With a rich experience in bilingual technical support and as a freelance developer, I have developed robust skills in both iOS development and full-stack web development.
+  name: "Aarón Martínez Cuevas",
+  jobDescription: "iOS Developer III @ Wizeline",
+  contact: {
+    phone: "5533953824",
+    email: "contalado0r@gmail.com"
+  },
+  about: `Soy un desarrollador de iOS con sede en la Ciudad de México, apasionado por la unión de la medicina y la tecnología. Me interesa especialmente la investigación y cómo las aplicaciones móviles pueden mejorar la atención sanitaria y los procesos de investigación.
 
-  Over my career, I have accumulated expertise in Swift, SwiftUI, UIKit, and various backend technologies, successfully leading projects for platforms like Expedia and healthcare applications. Continuously seeking to expand my knowledge, I've also delved into Python, Firebase, and machine learning frameworks, which complement my extensive work with databases and server management on cloud platforms like GCP, Azure, and AWS.
-  `,
+Cuento con experiencia bilingüe en soporte técnico y como intérprete, así como en desarrollo freelance, lo que me ha permitido adquirir habilidades sólidas tanto en desarrollo iOS como en desarrollo web full-stack. A lo largo de mi carrera he trabajado con Swift, SwiftUI, UIKit, y diversas tecnologías de backend, liderando proyectos para plataformas como Expedia y aplicaciones de salud.
 
-  "experience": [
+Siempre estoy en busca de nuevos retos: he profundizado en Python, Firebase y frameworks de machine learning, complementando mi trabajo con bases de datos y gestión de servidores en la nube (GCP, Azure, AWS).`,
+  skills: [
+    "Swift", "SwiftUI", "UIKit", "Combine", "Vapor",
+    "Python", "Firebase", "Cloudflare D1",
+    "GraphQL (Apollo)", "Azure", "AWS", "GCP",
+    "REST APIs", "CI/CD"
+  ],
+  languages: [
+    { name: "Spanish", proficiency: "Native or Bilingual" },
+    { name: "English", proficiency: "Full Professional" },
+    { name: "Italian", proficiency: "Limited Working" }
+  ],
+  certifications: [
+    "Introduction to Deep Learning in Python",
+    "iOS Developer Career Path (Codecademy)",
+    "Intermediate R",
+    "EF SET English Certificate 76/100 (C2 Proficient)",
+    "EF SET English Certificate B2"
+  ],
+  experience: [
     {
-      "name": "Apex Systems",
-      "location": "Mexico City - Remote",
-      "startDate": "May 2024",
-      "endDate": "Actual Job",
-      "description": [
-        "- Expedia Group, developing features focusing on sort and filters team of all the LOBs",
-        "- Collaborated extensively with cross-functional teams to design and deploy new application features."
+      name: "Wizeline",
+      location: "Ciudad de México",
+      startDate: "April 2025",
+      endDate: "Present",
+      description: [
+        "Desarrollo de nuevas funcionalidades en aplicaciones iOS para clientes globales.",
+        "Optimizó performance y memoria usando SwiftUI, Combine y arquitecturas MVVM."
       ]
     },
     {
-      "name": "Luxoft",
-      "location": "Mexico City - Remote",
-      "startDate": "Jun 2023",
-      "endDate": "Apr 2024",
-      "description": [
-        "- Developed iOS features for Expedia Group, focusing on enhancing user experience and feature integration.",
-        "- Collaborated extensively with cross-functional teams to design and deploy new application features."
+      name: "Apex Systems",
+      location: "Mexico City - Remote",
+      startDate: "May 2024",
+      endDate: "December 2024",
+      description: [
+        "Desarrollé características clave de ordenamiento y filtros para Expedia Group.",
+        "Implementé mejoras de rendimiento y participé en code reviews con equipos multifuncionales."
       ]
     },
     {
-      "name": "NTT DATA Europe & Latam",
-      "location": "Mexico City - Remote",
-      "startDate": "Oct 2022",
-      "endDate": "Jun 2023",
-      "description": [
-        "- Involved in iOS development projects for clients including ENGIE, Chopo, Acceso Salud, and Actinver, focusing on UI/UX design and API integration.",
-        "- Performed code reviews and adhered to high standards in software quality to ensure efficient performance and reliability."
+      name: "Luxoft",
+      location: "Mexico City - Remote",
+      startDate: "June 2023",
+      endDate: "April 2024",
+      description: [
+        "Diseñé e implementé funcionalidades iOS para Expedia Group, mejorando la experiencia y la integración de APIs.",
+        "Colaboré con QA y Product Owners para asegurar calidad y consistencia."
       ]
     },
     {
-      "name": "Programa Delfin",
-      "location": "Guadalajara, Mexico - Remote",
-      "startDate": "Jun 2022",
-      "endDate": "Aug 2022",
-      "description": [
-        "- Research intern who participated in the analysis of polymorphisms in mitochondrial DNA associated with diabetes using bioinformatics tools."
+      name: "NTT DATA Europe & Latam",
+      location: "Mexico City - Remote",
+      startDate: "October 2022",
+      endDate: "June 2023",
+      description: [
+        "Participé en proyectos de UI/UX y API integration para clientes como ENGIE y Actinver.",
+        "Realicé code reviews y optimización de rendimiento en apps críticas."
       ]
     },
     {
-      "name": "Codifin",
-      "location": "Mexico City - Remote",
-      "startDate": "May 2022",
-      "endDate": "Aug 2022",
-      "description": [
-        "- Intern role focused on iOS development and full-stack web development, gaining practical experience in Swift and SwiftUI."
+      name: "Programa Delfín",
+      location: "Guadalajara, México - Remote",
+      startDate: "June 2022",
+      endDate: "August 2022",
+      description: [
+        "Analicé polimorfismos en ADN mitocondrial relacionados con diabetes tipo 2 usando bioinformática.",
+        "Colaboré con investigadores para identificar marcadores genéticos."
       ]
     },
     {
-      "name": "LanguageLine Solutions",
-      "location": "Mexico City - Remote",
-      "startDate": "Apr 2022",
-      "endDate": "May 2022",
-      "description": [
-        "- Provided bilingual technical support as an over-the-phone interpreter, facilitating communication across diverse subject areas."
+      name: "Codifin",
+      location: "Mexico City - Remote",
+      startDate: "May 2022",
+      endDate: "August 2022",
+      description: [
+        "Desarrollé aplicaciones iOS y realicé pruebas unitarias con Swift y SwiftUI.",
+        "Participé en debugging y optimización de interfaces."
       ]
     },
     {
-      "name": "SYKES",
-      "location": "Mexico City Metropolitan Area",
-      "startDate": "Oct 2021",
-      "endDate": "Jan 2022",
-      "description": [
-        "- Technical support agent level 2, delivering customer service and technical assistance for a range of electronic devices under an international insurance framework."
+      name: "LanguageLine Solutions",
+      location: "Mexico City - Remote",
+      startDate: "April 2022",
+      endDate: "May 2022",
+      description: [
+        "Interpretación técnica bilingüe (inglés-español) en sectores como emergencias y banca."
       ]
     },
     {
-      "name": "Freelance",
-      "location": "Mexico City - Remote",
-      "startDate": "Aug 2018",
-      "endDate": "Jun 2021",
-      "description": [
-        "- Managed various freelance projects involving website creation, server management, and network setup across platforms including GCP, Azure, and AWS."
+      name: "SYKES",
+      location: "Tlalnepantla de Baz, México",
+      startDate: "October 2021",
+      endDate: "January 2022",
+      description: [
+        "Soporte técnico nivel 2 para dispositivos electrónicos con estándares internacionales."
+      ]
+    },
+    {
+      name: "Freelance",
+      location: "Ciudad de México - Remote",
+      startDate: "August 2018",
+      endDate: "June 2021",
+      description: [
+        "Gestioné proyectos web y de infraestructura en GCP, Azure y AWS.",
+        "Diseñé bases de datos, configuré servidores y optimicé redes."
       ]
     }
   ],
-
-  "education": [
+  education: [
     {
-      "name": "Instituto Politécnico Nacional",
-      "location": "Mexico City, Mexico",
-      "startDate": "Aug 2018",
-      "endDate": "Aug 2025",
-      "description": [
-        "Bachelor of Medicine, Bachelor of Surgery - MBBS, Medicine. Currently in 9th semester, focusing on Medical Surgery."
+      name: "Instituto Politécnico Nacional",
+      location: "Ciudad de México, México",
+      startDate: "August 2018",
+      endDate: "August 2025",
+      description: [
+        "MBBS (Licenciatura en Medicina y Cirugía), actualmente en noveno semestre enfocado en Cirugía Médica."
       ]
     },
     {
-      "name": "Instituto Politécnico Nacional",
-      "location": "Mexico City, Mexico",
-      "startDate": "Feb 2016",
-      "endDate": "Jan 2018",
-      "description": [
-        "Technical degree, Computation. Covered web development, programming in Java, batch, C and C++, networks management, computer assembly, adobe suite, 3D modeling essentials, MySQL database management, operating systems, and Arduino projects."
+      name: "Instituto Politécnico Nacional",
+      location: "Ciudad de México, México",
+      startDate: "February 2016",
+      endDate: "January 2018",
+      description: [
+        "Técnico en Computación: desarrollo web, Java, C/C++, administración de redes y bases de datos MySQL."
       ]
     },
     {
-      "name": "UVEG",
-      "location": "Mexico",
-      "startDate": "Nov 2022",
-      "endDate": "Nov 2025",
-      "description": [
-        "Bachelor of Engineering, Computer Engineering. Engaged in comprehensive studies in computer engineering."
+      name: "UVEG",
+      location: "México",
+      startDate: "November 2022",
+      endDate: "November 2025",
+      description: [
+        "Ingeniería en Computación: estudios integrales en ingeniería de software y sistemas."
       ]
     }
   ],
-
   socialMedia: {
     facebook: "https://www.facebook.com/Ron.Cuevas13/",
     twitter: "https://twitter.com/RonCuevas13",
     github: "https://github.com/roncuevas",
     email: "mailto:contact@roncuevas.com",
-    linkedin: "https://www.linkedin.com/in/roncuevasx/",
+    linkedin: "https://www.linkedin.com/in/roncuevasx/"
   },
-
   projects: [
     {
       title: "Astro Portfolio",
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
       githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
-    },
-  ],
+      liveUrl: "https://astro-portfolio-uzair.vercel.app/"
+    }
+  ]
 };
