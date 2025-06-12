@@ -126,7 +126,8 @@ Siempre estoy en busca de nuevos retos: he profundizado en Python, Firebase y fr
       startDate: "August 2018",
       endDate: "August 2025",
       description: [
-        "MBBS (Licenciatura en Medicina y Cirugía), actualmente en noveno semestre enfocado en Cirugía Médica."
+        "MBBS (Licenciatura en Medico Cirujano y Partero): formación integral en medicina, con énfasis en investigación y tecnología médica.",
+        "Participación en proyectos de investigación médica y desarrollo de aplicaciones móviles para la salud."
       ]
     },
     {
