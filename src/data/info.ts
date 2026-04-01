@@ -19,7 +19,8 @@ Actualmente explorando Kotlin Multiplatform (KMP) y Jetpack Compose para ampliar
     "REST APIs (Codable/URLSession)", "GraphQL (Apollo)",
     "XCTest", "Unit Testing", "UI Testing",
     "Vapor (Swift)", "Firebase", "AWS", "Azure", "GCP",
-    "Xcode", "Git", "GitHub", "GitLab", "CocoaPods", "SPM", "TestFlight", "App Store Connect",
+    "MySQL", "MariaDB", "UserDefaults",
+    "Xcode", "AppCode", "Git", "GitHub", "GitLab", "CocoaPods", "SPM", "TestFlight", "App Store Connect",
     "Jira", "Confluence", "Slack", "Agile/Scrum", "CI/CD"
   ],
   languages: [
@@ -115,16 +116,18 @@ Actualmente explorando Kotlin Multiplatform (KMP) y Jetpack Compose para ampliar
       startDate: "April 2022",
       endDate: "May 2022",
       description: [
-        "Interpretación técnica bilingüe (inglés-español) para servicios de emergencia, banca, gobierno y migración."
+        "Interpretación telefónica bilingüe (inglés-español) para servicios de emergencia, banca, gobierno y migración.",
+        "Aseguré comunicación precisa y eficiente entre las partes involucradas."
       ]
     },
     {
       name: "SYKES",
-      location: "CDMX",
+      location: "Tlalnepantla, Edo. Méx.",
       startDate: "October 2021",
       endDate: "January 2022",
       description: [
-        "Soporte técnico nivel 2 para dispositivos electrónicos; colaboración con equipos internacionales."
+        "Soporte técnico nivel 2 para dispositivos electrónicos (electrodomésticos y computadoras).",
+        "Colaboración con equipos internacionales para garantizar operaciones fluidas."
       ]
     },
     {
@@ -134,7 +137,9 @@ Actualmente explorando Kotlin Multiplatform (KMP) y Jetpack Compose para ampliar
       endDate: "June 2021",
       description: [
         "Gestión de proyectos web, infraestructura cloud (GCP, Azure, AWS) y diseño de bases de datos (MySQL, MariaDB).",
-        "Administración de servidores y desarrollo de soluciones para múltiples clientes en CDMX."
+        "Administración de servidores Linux/Windows, redes y ensamblaje de computadoras.",
+        "Desarrollo e implementación de VMs para optimizar rendimiento y escalabilidad.",
+        "Tech: JavaScript, MySQL, MariaDB, GCP, Azure, AWS, Linux, Windows"
       ]
     }
   ],
@@ -155,6 +160,15 @@ Actualmente explorando Kotlin Multiplatform (KMP) y Jetpack Compose para ampliar
       endDate: "August 2025",
       description: [
         "Médico Cirujano y Partero / MBBS (trunca): investigación médica y tecnología en salud."
+      ]
+    },
+    {
+      name: "Universidad Abierta y a Distancia de México (UnADM)",
+      location: "México (en línea)",
+      startDate: "October 2021",
+      endDate: "December 2025",
+      description: [
+        "Licenciatura en Administración de Servicios de Salud."
       ]
     },
     {
